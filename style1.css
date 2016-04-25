@@ -17,7 +17,7 @@ body {
 
 .container {
 	display: table-cell; /* allows the next 2 style rules to work */
-	text-align: center; /* centers the text */
+	text-align:center; /* centers the text */
 	vertical-align: middle; /* aligns .container in the middle of the page */
 }
 

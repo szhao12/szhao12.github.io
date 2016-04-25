@@ -1,17 +1,10 @@
-body {
-    font-family: Arial, sans-serif; /* changes the font on the entire page */
-}
-
-.container {
-    width: 960px; /* creates a fixed width layout of 960px wide */
-    margin: 0 auto; /* removes margin from top/bottom, automatically  */
+body{
+    background-color:#8EDFFF; 
+    margin:0;
+    padding: 0;
 }
 
 /* styles for header and navigation */
-
-.logo {
-    border-radius: 50%;
-}
 
 header, footer {
     text-align: center;
@@ -19,12 +12,14 @@ header, footer {
 
 nav ul {
     list-style-type: none;
-    padding: 0;
+    padding: 30px, 0px, 0px, 0px;
+    text-align: right; 
 }
 
 nav li {
     display: inline;
-    padding: 5px;
+    padding: 20px;
+    font-size: 16px;
 }
 
 nav a:active, nav a:hover, nav a:visited, nav a:link {
@@ -37,12 +32,55 @@ nav a:hover {
     background-color: #8EDFFF;
 }
 
+.logo{
+    color:#000000;
+    float: left;
+    padding left:20px;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.banner{
+    border: 3px solid;
+    width: 100%;
+}
+
+h1{
+    text-align:center;
+}
+ 
+.container{
+    margin: 50px;
+    border:3px solid #FFFFFF;
+    background-color:#8EDFFF;
+    padding:10px;
+
+}
+
+h2{
+    text-align: center;
+}
+
+p {
+    border: 5px solid #FFFFFF;
+    padding:20px;
+    width: 1060px;
+    border-radius: 10px;
+    margin:10px 50px 10px 50px;
+    text-align: center;
+    font-size: 16px;
+
+}
+
+h3{
+    text-align: center;
+}
+
 /* styles for main content */
-
-
 /* styles for footer */
-
 footer {
     font-size: 10px;
-    padding: 5px 0;
+    padding: 5px 0 5px 20px;
+    margin: 0 0 0 20px;
+    
 }
