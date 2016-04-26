@@ -70,10 +70,13 @@ div.transbox p {
 div.img {
     display:flex;
     flex-direction: column;
+    position: relative;
     margin: 5px;
+    margin-left:40px;
     border: 1px solid #ccc;
     float: left;
-    width: 300px;
+    width: 250px;
+    height:300px;
 }
 
 div.img:hover {
@@ -82,11 +85,11 @@ div.img:hover {
 
 div.img img {
     width: 100%;
-    height: auto;
+    height: 200px;
 }
 
 div.desc {
-    padding: 15px;
+    padding: 5px;
     text-align: center;
 }
 
@@ -95,7 +98,10 @@ div.desc {
 
 /* styles for footer */
 
-footer {
-    font-size: 10px;
-    padding: 5px 0;
+
+footer{
+    position: absolute;
+    top: 1400px;
+    text-align: center;
+    color:white;
 }
