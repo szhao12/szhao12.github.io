@@ -5,7 +5,7 @@ body, html {
 
 body {
 	font-family: Arial, sans-serif; /* changes the font */
-	background-image: url(images/japanese_cherry_trees.jpg); /* adds a bg image */
+	background-image: url(images/japanese_cherry_trees.jpg);/* adds a bg image */
 	background-position: center center; /* centers the bg image */
 	background-repeat: no-repeat; /* makes sure the bg doesn't repeat */
 	background-attachment: fixed; /* makes the bg not move */
@@ -34,3 +34,5 @@ a:hover {
 	font-weight: bold; /* makes font bold */
 	background-color: #cccccc; /* changes the bg color to gray */
 }
+
+
